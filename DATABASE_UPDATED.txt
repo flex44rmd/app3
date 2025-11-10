@@ -1,0 +1,47 @@
+===========================================
+✅ تم تحديث اسم قاعدة البيانات!
+===========================================
+
+اسم قاعدة البيانات الجديد: if0_40376337_test
+
+===========================================
+المعلومات المحدثة:
+===========================================
+
+MySQL Hostname: sql112.infinityfree.com
+MySQL Port: 3306
+MySQL Username: if0_40376337
+MySQL Password: eRdbAFO2dIuMLoz
+MySQL Database Name: if0_40376337_test
+
+===========================================
+الملفات المحدثة:
+===========================================
+
+✅ server/.env (سيتم إنشاؤه بهذا الاسم)
+✅ server/CHECKLIST.md
+✅ server/QUICK_START.md
+✅ server/SETUP_INFINITYFREE.md
+✅ server/INFINITYFREE_CONFIG.txt
+✅ server/CREATE_ENV.md
+✅ server/create-env.ps1
+✅ DATABASE_CONNECTION_INFO.md
+✅ DATABASE_CREDENTIALS.txt
+✅ DATABASE_INFO_SUMMARY.md
+
+===========================================
+الخطوة التالية:
+===========================================
+
+1. شغّل السكريبت لإنشاء ملف .env:
+   cd server
+   .\create-env.ps1
+
+2. أو أنشئ ملف .env يدوياً:
+   DB_NAME=if0_40376337_test
+
+3. شغّل الخادم:
+   npm start
+
+===========================================
+
